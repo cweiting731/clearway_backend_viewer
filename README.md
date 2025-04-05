@@ -1,8 +1,9 @@
 # clearway_backend_viewer
 
-a viewer for watching where all ambulance are
+給後端管理者觀察所有緊急車輛狀態用的前端顯示
 
 ## Getting Started
+功能尚未實作完成，資料都是假的，只是測試用資料
 
 This project is a starting point for a Flutter application.
 
