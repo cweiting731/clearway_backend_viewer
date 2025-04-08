@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:clearway_backend_viewer/page/list_page.dart';
+import 'package:clearway_backend_viewer/view/list_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false, // 清除右上方的Debug banner
       title: 'ClearWay',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
